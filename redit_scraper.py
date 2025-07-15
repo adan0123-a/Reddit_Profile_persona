@@ -10,14 +10,18 @@ import os
 nltk.download('punkt')
 nltk.download('stopwords')
 
+# load model
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
 
+# Setup Reddit API creddentials
 reddit = praw.Reddit(
     client_id='5OM6yVGDZWEE1TP3QnvuCQ',
     client_secret='OXnMebJeKtL_y9MKxDMKfUg_2YUYxg',
     user_agent = 'windows:MYbot:1.0 (by /u/Ok-Deer-8315)'
 )
 
+
+# fetch data
 def get_reddit_user_data(username):
     user = reddit.redditor(username)
     comments, posts= [], []
@@ -33,6 +37,8 @@ def get_reddit_user_data(username):
         
     return comments, posts, subreddits
 
+
+# build persona
 def build_user_persona(comments,posts):
     text= ' '.join(comments+posts)
     words = word_tokenize(text)
@@ -40,7 +46,7 @@ def build_user_persona(comments,posts):
     filtered= [w for w in words if w.lower() not in stop_words and w.isalpha()]
     return nltk.FreqDist(filtered)
 
-# summarize
+# generate summary
 def generate_summary(text, word_freq, subreddits):
     chunks = [text[i:i+1024] for i in range(0, len(text), 1024)]
     summaries= [summarizer(chunk)[0]['summary_text'] for chunk in chunks[:3]]
@@ -56,7 +62,7 @@ def generate_summary(text, word_freq, subreddits):
     Summary of Reddit content (via LLM):{combined}
     """.strip()
 
-# save to file 
+# save to .txt file 
 def save_to_file(username,word_freq,subreddits, comments,posts,summary):
     filename=f"{username}_persona.txt"
     with open(filename, 'w', encoding='utf-8')as f:
@@ -78,6 +84,7 @@ def save_to_file(username,word_freq,subreddits, comments,posts,summary):
         f.write(summary)
     return filename 
 
+#streamlit app (ui)
 st.set_page_config(page_title="Reddit User Persona Generator", layout="centered")
 st.title("Reddit User Persona Generator")
 st.markdown("Build persona generator based on reddit user's profile using NLP and LLM")
@@ -104,20 +111,3 @@ if st.button("Generate persona"):
                         st.download_button("Download persona file", f, file_name=filename)
             except Exception as e:
                 st.error(f"Something went wrong: {e}")
-                
-        
-
-    
-                      
-            
-    
-                
-    
-    
-
-        
-
-    
-    
-
-
