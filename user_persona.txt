@@ -1,0 +1,46 @@
+📛 Reddit User Persona: user
+
+🔎 Most Active Subreddits:
+- reddit.com: 8 posts/comments
+
+💬 Top 10 Most Used Words:
+- know: 5
+- really: 4
+- Paul: 4
+- like: 4
+- Graham: 3
+- ca: 3
+- created: 3
+- tsk: 2
+- Digg: 2
+- article: 2
+
+🧾 Sample Comments:
+- Do you really think lisp or Paul Graham or his idiotic, cultish beliefs are going to be around 10 years from now?...
+- God bless you robbie.
+
+I don't know why I don't like Paul Graham.
+I don't know why I don't like Bush.
+I just don't like them.
+They seem to know i...
+- Gee willikers I got modded down for say this?  Shocking!...
+
+📝 Sample Posts:
+- [This guy is really, really, really an Athiest] http://godlessbastard.com/SiteMenu.html...
+- [Reddit mentioned in San Francisco Chronicle] http://sfgate.com/cgi-bin/article.cgi?f=/c/a/2006/04/17/BUG78I9FMQ1.DTL...
+
+✅ Citations Used:
+Comment: Do you really think lisp or Paul Graham or his idiotic, cultish beliefs are going to be around 10 years from now?...
+Comment: God bless you robbie.
+
+I don't know why I don't like Paul Graham.
+I don't know why I don't like Bush.
+I just don't like them.
+They seem to know it all.
+They don't need anyone else's opinion.
+Th...
+Post: [This guy is really, really, really an Athiest] http://godlessbastard.com/SiteMenu.html...
+Post: [Reddit mentioned in San Francisco Chronicle] http://sfgate.com/cgi-bin/article.cgi?f=/c/a/2006/04/17/BUG78I9FMQ1.DTL...
+
+🤖 LLM-Based Persona Summary:
+❌ Error during LLM-based persona generation: name 'pipe' is not defined

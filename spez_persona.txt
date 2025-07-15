@@ -1,0 +1,42 @@
+Reddit user persona: spez
+
+Most Active subreddits:
+ - ModSupport: 29 posts/comments
+ - modnews: 17 posts/comments
+ - u_spez: 6 posts/comments
+ - Snoo: 5 posts/comments
+ - ideasfortheadmins: 5 posts/comments
+
+Top 10 Most Used Words:
+ - Reddit: 71
+ - communities: 33
+ - community: 31
+ - https: 30
+ - make: 25
+ - time: 24
+ - like: 23
+ - ads: 22
+ - want: 21
+ - know: 21
+
+Sample Comments:
+- There's a message for all of us in this one....
+- TFW you open Reddit at 3am....
+- It's cute, but cell phones are not permitted in the museum....
+
+Sample Posts:
+- [I forgot its ears again.](https://preview.redd.it/j2bbssltqhaf1.png?width=936&format=png&auto=webp&s=1f1e853b0d2e257a84a2798dcde2d7a27c85e70d)...
+- Hi everyone,
+
+I haven’t posted in a while—and let’s be honest, when I do show up, it usually means something’s gone sideways (and if it’s not gone sid...
+- [Today we’re testing a new way to discuss political ads (and announcements)] https://www.reddit.com/r/announcements/comments/ipitt0/today_were_testing...
+
+ LLM-Based Persona Summary:
+Name:Infered from reddit activity
+    Qualification: Possibly educated based on subreddits topics
+    Goals: Interested inSnoo, AskReddit
+    Motivation: Engaged in learning/sharing via reddit
+    Frustration: occasionaly critical or concerned
+    Skills:shows strength in Reddit, communities, community
+    Hobbies: Active in Snoo, AskReddit, RedditIPO 
+    Summary of Reddit content (via LLM):Reddit's new Answers feature lets users answer questions in real-time. The app will be added to the Reddit app in the near future. There's a message for all of us in this one. TFW you open Reddit at 3am. It's cute, but cell phones are not permitted in the museum. A subreddit is translated into multiple languages but within a single culture / theme. r/AskReddit is mostly English, but the theme—answer interesting questions—is cross-cultural. We do our best to advocate for good Internet laws in the US and around the world. Reddit. y were going to 100% make an age verification law. We fought and continue to fight to make sure that platforms like Reddit will not be required ever see, let alone store, your ID. I don't want your ID to ever pass through our infrastructure. It requires a certain sophistication to even know you're being hacked.
